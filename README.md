@@ -1,14 +1,74 @@
-# AI-Agent-Capstone
+# 🧠 ChoreDitch-AI – Smart Automation for Files & Tasks  
 
-## Demo Explanation : https://youtu.be/U84xbOKPmzo 
+Welcome to **ChoreDitch-AI**, my capstone project built to handle the kind of digital chores we all face but hate doing. The idea was simple:  
+what if AI agents could take over the repetitive, boring stuff—so I could focus on the real work?  
 
 
-- [FileManagerAutomater README](#FileManagerAutomater-README)
-- [TodoAutomater README](#TodoAutomater-README)
+## 🌍 The Problem  
+
+Everyday digital life comes with two constant headaches:  
+- Messy folders full of unorganized files.  
+- Sticky notes and reminders scattered across apps (and often forgotten).  
+
+I wanted a single solution that tackles both—without me lifting a finger every time.  
+
+
+## 💡 The Solution – ChoreDitch-AI  
+
+I built **ChoreDitch-AI** to automate two key areas:  
+1. **FileManagerAutomater** → keeps files neat, sorted, and compressed.  
+2. **TodoAutomater** → takes plain text tasks and turns them into real actions like emails, stock alerts, and calendar events.  
+
+Together, they form a system that saves time, removes clutter, and ensures I never forget what matters.  
+
+
+## 🎯 Why I Built This  
+
+This project wasn’t about theory—it was about solving my daily problems:  
+- **FileManagerAutomater** keeps my folders clean without me dragging files around.  
+- **TodoAutomater** ensures tasks written in simple English actually *get done*.  
+
+By combining **AI agents + automation**, I ended up with something surprisingly powerful: a small system that feels like a personal assistant for digital chores.  
+
+
+## 🚀 The Outcome  
+
+- No more clutter.  
+- No more forgotten reminders.  
+- Just smooth, automated workflows powered by Python and APIs.  
+
+It may not look flashy, but it’s practical, modular, and ready for real-world use.  
+Whether you’re organizing your downloads folder or setting up daily stock alerts, **ChoreDitch-AI** shows how a few smart agents can make life noticeably easier.  
+
+
+
+## 🎥 Demo Video  
+Check out the full demo here: [Watch on YouTube](https://youtu.be/U84xbOKPmzo)  
+
+--------------------------------------------------------
+
+## 📑 README Structure  
+- [FileManagerAutomater](#filemanagerautomater)  
+- [TodoAutomater](#todoautomater)  
+- [Future Plans for ChoreDitch-AI](#future-plans-for-choreditch-ai)
+
+  
+--------------------------------------------------------
 
 # FileManagerAutomater README
 
 FileManagerAutomater is a Python project designed to automate the process of organizing and compressing files. It scans a designated input folder for files, categorizes them based on their type (e.g., PDFs, images), moves them into corresponding subfolders in an output directory, and applies compression using external services (ConvertAPI for PDFs and TinyPNG for images). This project helps you maintain an organized file system while reducing file sizes for easier storage and transfer.
+
+**Problem it solves:** You drop files everywhere, PDFs are too big to share, and images eat up disk space.  
+
+**How it works:**  
+- Scans your chosen input folder.  
+- Sorts files into categories (PDFs, Images, Others).  
+- Moves them neatly into output folders.  
+- Compresses PDFs (ConvertAPI) and images (TinyPNG).  
+
+**Why it’s useful:** Instead of spending time manually dragging files into folders or hunting for compression sites, the agent does it all automatically with instant feedback in the terminal.
+
 
 ---
 
@@ -236,12 +296,28 @@ FileManagerAutomater is a comprehensive tool for automating file organization an
 
 With detailed output at every step, you receive immediate feedback on file movements and compression efficiency. This allows you to verify that the system works correctly and to quickly identify any issues. Whether you need to manage a few files or handle large volumes of data, FileManagerAutomater streamlines the process and optimizes storage with minimal manual intervention.
 
+✅ Files organized. ✅ Space saved. ✅ No effort.  
+
 Enjoy using FileManagerAutomater to keep your files organized and efficient!
+
 
 
 # TodoAutomater README
 
 TodoAutomater is a Python project designed to automate daily tasks based on natural language instructions. It reads tasks from a plain text file (`todo.txt`), sends those instructions to Google’s Gemini language model (LLM) to convert them into a structured JSON format, and then uses that JSON to perform actions such as sending email reminders, fetching stock prices via yfinance, and creating calendar events on Google Calendar.
+
+**Problem it solves:** You write tasks in a note but forget to follow up.  
+
+**How it works:**  
+- Reads tasks from `todo.txt` (like “Remind me to submit my assignment at 7 PM”).  
+- Uses Google’s Gemini LLM to turn them into structured JSON.  
+- Schedules tasks with timers.  
+- Executes them via modules:  
+  - **Email reminders** (via Gmail SMTP).  
+  - **Stock price updates** (via yfinance).  
+  - **Google Calendar invites** (via Calendar API).  
+
+**Why it’s useful:** You don’t have to code cron jobs or set alarms manually. Just write tasks in plain English, and the system figures out the rest.  
 
 ---
 
@@ -494,6 +570,7 @@ Add an invite for a lecture on 2025-03-07 at 18:05
 - **Execution:**  
   The calendar invite is created immediately. The code wraps the start and end times into the correct format for the Google Calendar API and creates the event on your primary calendar.
 
+
 ---
 
 ## Summary
@@ -516,4 +593,34 @@ TodoAutomater is an automation tool that bridges the gap between natural languag
 - **Easy Setup:**  
   With a virtual environment, proper package installation, and Google OAuth setup, you can quickly get started and customize the tool to your needs.
 
-This project is an excellent example of combining LLM-powered natural language processing with traditional programming to create a practical automation tool. Enjoy automating your daily tasks with TodoAutomater!
+✅ Natural language in. ✅ Structured automation out.    
+
+---
+
+# 🔮 Future Plans For ChoreDitch-AI
+
+- Add support for more file types (ZIP, DOCX).  
+- Expand TodoAutomater to handle recurring reminders.  
+- Build a simple dashboard UI instead of just terminal logs.  
+
+---
+
+## 🤝 Contributing
+
+Feel free to explore, fork, improve, or build on top of **ChoreDitch-AI**!  
+The goal is simple: automate the boring stuff so we can focus on what actually matters.  
+If you have ideas to make it smarter, cleaner, or more fun—go for it!
+
+---
+
+## 📝 License
+
+This project is fully open source.  
+Use it, tweak it, share it—just don’t let your tasks pile up again 😉
+
+---
+
+*ChoreDitch-AI started as a way to simplify my everyday chaos.  
+From messy folders to missed reminders, it handles the dull stuff—so you don't have to.  
+Hope it saves you time like it did for me!*
+
