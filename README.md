@@ -1,7 +1,10 @@
 # 🧠 ChoreDitch-AI – Smart Automation for Files & Tasks  
 
-Welcome to **ChoreDitch-AI**, my capstone project built to handle the kind of digital chores we all face but hate doing. The idea was simple:  
-what if AI agents could take over the repetitive, boring stuff—so I could focus on the real work?  
+Welcome to **ChoreDitch-AI**, my capstone project built to handle the kind of digital chores we all face but hate doing. 
+
+The idea was simple:  
+
+What if AI agents could take over the repetitive, boring stuff—so I could focus on the real work?  
 
 
 ## 🌍 The Problem  
